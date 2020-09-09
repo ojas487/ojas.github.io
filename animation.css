@@ -1,0 +1,49 @@
+div{
+    background-color: #daa520;
+width: 10rem;
+height: 10rem;
+position: relative;
+animation-name: ojas;
+animation-duration: 10s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ojas {
+    from{
+        background-color: lightgreen;
+        right: 6rem;
+        bottom: 6rem;
+        left: 6rem;
+        top: 6rem;
+    }
+    to{
+        background-color: blue;
+
+        right:2rem ;
+        bottom: 5rem;
+        top: 1rem;
+        left: 6rem;
+    }
+     10%{
+         background-color: darkorchid;
+
+     }
+     25%{
+         background-color: green;
+        
+     }
+     50%{
+         background-color: rgb(255, 0, 38);
+
+     }
+     75%{
+         background-color: rgb(0, 217, 255);
+
+     }
+     100%{
+         background-color: yellow;
+     }
+}
+
+
